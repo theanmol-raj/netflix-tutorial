@@ -1,4 +1,6 @@
-
+*{
+  overflow-y: hidden;
+}
 
 .row{
   color: white;

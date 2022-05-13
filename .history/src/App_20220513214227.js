@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Routes>
       <Route path="/" element={user ?<HomeScreen /> : <div className=' flex h-screen w-screen items-center justify-center text-[7rem] font-black'> 404</div>} />
-      <Route path="/Login" element={user ? <div><Link to={'/'}>Homescreen</Link></div> : <LoginScreen S={SetUSer} />} />
+      <Route path="/Login" element={user ? "Already Logged in" : <LoginScreen />} />
       </Routes>
 
     </div>
